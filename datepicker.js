@@ -1,5 +1,4 @@
 /* flatpickr v4.6.13,, @license MIT */
-
 !(function (e, n) {
   "object" == typeof exports && "undefined" != typeof module
     ? (module.exports = n())
@@ -181,11 +180,12 @@
       weekAbbreviation: "Wk",
       scrollTitle: "Scroll to increment",
       toggleTitle: "Click to toggle",
+      amPM: ["AM", "PM"],
       yearAriaLabel: "Year",
       monthAriaLabel: "Month",
       hourAriaLabel: "Hour",
       minuteAriaLabel: "Minute",
-      time_24hr: 1,
+      time_24hr: !1,
     },
     o = function (e, n) {
       return void 0 === n && (n = 2), ("000" + e).slice(-1 * n);
